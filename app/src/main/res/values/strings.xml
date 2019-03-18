@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JustJavaCoffeeApp</string>
+    <string name="InputHint">Name</string>
+    <string name="Toppings">TOPPINGS</string>
+    <string name="Topping_name1">Whipped Cream</string>
+    <string name="Toppings_name2">Chocolate</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Order">ORDER</string>
+</resources>

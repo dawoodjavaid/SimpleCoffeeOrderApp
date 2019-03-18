@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/InputEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/InputHint"
+        style="@style/InputED1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Toppings"
+        style="@style/TextStyle"
+        android:layout_margin="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Check1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Topping_name1"
+            style="@style/TextStyle"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Check2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Toppings_name2"
+            style="@style/TextStyle"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Quantity"
+        style="@style/TextStyle"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/SubBtn"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:text="-"
+            style="@style/TextStyle"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/NoOfCofTv"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            style="@style/TextStyle"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/AddBtn"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:text="+"
+            style="@style/TextStyle"
+            android:textSize="30sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Orderbtn"
+        android:text="@string/Order"
+        style="@style/TextStyle"
+        android:layout_margin="30dp"
+        />
+
+    <TextView
+        android:id="@+id/FinalMsgTv"
+        style="@style/TextStyle"
+        android:layout_width="532dp"
+        android:layout_height="338dp"
+        />
+
+</LinearLayout>
